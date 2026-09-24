@@ -40,7 +40,7 @@ export const BakeryBusinessView: React.FC<BakeryBusinessViewProps> = ({
               className="btn btn-primary"
               style={{ background: '#8A1A7B', color: '#FFFFFF', padding: '12px 28px' }}
             >
-              <span>Minta Sampel Usaha </span>
+              <span>Minta Sampel </span>
               <ArrowRight size={16} />
             </button>
           </div>

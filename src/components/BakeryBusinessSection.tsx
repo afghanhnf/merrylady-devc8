@@ -167,7 +167,7 @@ export const BakeryBusinessSection: React.FC<BakeryBusinessSectionProps> = ({
                 <div className="calc-slider-header">
                   <span>{lang === 'ID' ? 'Estimasi Volume Produksi per Bulan' : 'Estimated Monthly Production Volume'}</span>
                   <span style={{ color: '#8A1A7B', fontWeight: 700 }}>
-                    {monthlyVolume} {lang === 'ID' ? 'Pak / Loyang' : 'Packs / Cakes'}
+                    {monthlyVolume} {lang === 'ID' ? 'Loyang / Bulan' : 'Cakes / Month'}
                   </span>
                 </div>
                 <input
@@ -185,8 +185,8 @@ export const BakeryBusinessSection: React.FC<BakeryBusinessSectionProps> = ({
                 <ShieldCheck size={18} style={{ color: '#047857' }} />
                 <span style={{ fontSize: '0.82rem', color: '#6E6270' }}>
                   {lang === 'ID'
-                    ? 'Bebas Lemak Trans • 100% Halal MUI • Jaminan Pasokan Cold-Chain'
-                    : 'Zero Trans Fat • 100% Halal Certified • Guaranteed Cold-Chain Supply'}
+                    ? 'Bebas Lemak Trans • 100% Halal MUI • Jaminan Stok'
+                    : 'Zero Trans Fat • 100% Halal Certified • Guaranteed Stock'}
                 </span>
               </div>
             </div>
@@ -218,7 +218,7 @@ export const BakeryBusinessSection: React.FC<BakeryBusinessSectionProps> = ({
                   justifyContent: 'center',
                 }}
               >
-                <span>{lang === 'ID' ? 'Minta Sampel Usaha' : 'Request Business Sample'}</span>
+                <span>{lang === 'ID' ? 'Minta Sampel' : 'Request Sample'}</span>
                 <ArrowRight size={15} />
               </a>
             </div>
